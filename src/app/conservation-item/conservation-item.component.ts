@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'hc-conservation-item',
   templateUrl: './conservation-item.component.html',
-  styleUrls: ['./conservation-item.component.css']
+  encapsulation: ViewEncapsulation.None,
 })
 export class ConservationItemComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
