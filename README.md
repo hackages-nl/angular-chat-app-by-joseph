@@ -25,3 +25,25 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+From pieter-jan to Everyone: (3:38 PM)
+ - main page component   
+ left sidebar/ messages sidebar component    
+  - messages-sidebar-header component    
+   - search component   
+     - chat-list component      
+      - chat-item component  
+  - main component   
+         - conservation head component     
+           - contextual menu component   
+             - conservation-list component   
+                 - conservation-item component    
+                    - divider component  
+                       - new message component  
+     - right sidebar/ info sidebar component   
+                          - contact header component 
+                             - contact info component 
+                                 - contact media component   
+                                     - child media component   
+                                       -  contact about component
